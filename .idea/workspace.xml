@@ -6,6 +6,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WPD_finalExam/sample/Main.class" afterPath="$PROJECT_DIR$/out/production/WPD_finalExam/sample/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WPD_finalExam/sample/sample.fxml" afterPath="$PROJECT_DIR$/out/production/WPD_finalExam/sample/sample.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="$PROJECT_DIR$/src/sample/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -64,15 +65,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="40" column="50" lean-forward="true" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+            <state relative-caret-position="-667">
+              <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2195#2196#0" expanded="true" />
-                <element signature="e#2280#2281#0" expanded="true" />
+                <element signature="e#2223#2337#0" expanded="true" />
+                <element signature="e#2336#2337#0" expanded="true" />
+                <element signature="method#showData#0;class#Main#0" expanded="false" />
+                <element signature="method#showData2#0;class#Main#0" expanded="false" />
+                <element signature="method#setFinalLocation#0;class#Main#0" expanded="false" />
+                <element signature="method#translation2#0;class#Main#0" expanded="false" />
+                <element signature="method#search#0;class#Main#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -81,8 +87,8 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="342">
+              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,24 +96,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample.fxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sample.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/production/WPD_finalExam/sample/sample.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9818">
-              <caret line="528" column="0" lean-forward="true" selection-start-line="528" selection-start-column="0" selection-end-line="528" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="530">
+              <caret line="521" column="106" lean-forward="false" selection-start-line="521" selection-start-column="106" selection-end-line="521" selection-end-column="106" />
+              <folding>
+                <marker date="1514914595122" expanded="true" signature="23650:23715" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>img99</find>
+      <find>SYstem</find>
+      <find>var</find>
+      <find>translation1</find>
+      <find>System.o</find>
+      <find>System.out.print</find>
+      <find>nini</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -127,16 +148,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/SimpleTask.java" />
         <option value="$PROJECT_DIR$/out/production/WPD_finalExam/sample/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="width" value="960" />
-    <option name="height" value="1036" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -159,8 +182,8 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,10 +234,15 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/Oracle/JavaFX Scene Builder 2.0/JavaFX Scene Builder 2.0.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sample" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -363,18 +391,18 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2908705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38428876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -418,12 +446,57 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2223#2337#0" expanded="true" />
+            <element signature="e#2336#2337#0" expanded="true" />
+            <element signature="method#showData#0;class#Main#0" expanded="false" />
+            <element signature="method#showData2#0;class#Main#0" expanded="false" />
+            <element signature="method#setFinalLocation#0;class#Main#0" expanded="false" />
+            <element signature="method#translation2#0;class#Main#0" expanded="false" />
+            <element signature="method#search#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/WPD_finalExam/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <marker date="1514914595122" expanded="true" signature="23650:23715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2195#2196#0" expanded="true" />
-            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#2223#2337#0" expanded="true" />
+            <element signature="e#2336#2337#0" expanded="true" />
+            <element signature="method#showData#0;class#Main#0" expanded="false" />
+            <element signature="method#showData2#0;class#Main#0" expanded="false" />
+            <element signature="method#setFinalLocation#0;class#Main#0" expanded="false" />
+            <element signature="method#translation2#0;class#Main#0" expanded="false" />
+            <element signature="method#search#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -445,7 +518,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="84" lean-forward="true" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
-          <folding />
+          <folding>
+            <marker date="1514914595122" expanded="true" signature="23650:23715" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -455,8 +530,13 @@
           <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2195#2196#0" expanded="true" />
-            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#2223#2337#0" expanded="true" />
+            <element signature="e#2336#2337#0" expanded="true" />
+            <element signature="method#showData#0;class#Main#0" expanded="false" />
+            <element signature="method#showData2#0;class#Main#0" expanded="false" />
+            <element signature="method#setFinalLocation#0;class#Main#0" expanded="false" />
+            <element signature="method#translation2#0;class#Main#0" expanded="false" />
+            <element signature="method#search#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -488,8 +568,13 @@
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2195#2196#0" expanded="true" />
-            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#2223#2337#0" expanded="true" />
+            <element signature="e#2336#2337#0" expanded="true" />
+            <element signature="method#showData#0;class#Main#0" expanded="false" />
+            <element signature="method#showData2#0;class#Main#0" expanded="false" />
+            <element signature="method#setFinalLocation#0;class#Main#0" expanded="false" />
+            <element signature="method#translation2#0;class#Main#0" expanded="false" />
+            <element signature="method#search#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -529,25 +614,45 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/javafx-src.zip!/com/sun/glass/ui/win/WinApplication.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/event/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="40" column="50" lean-forward="true" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        <state relative-caret-position="399">
+          <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SimpleTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/TimerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="91" column="25" lean-forward="false" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/WPD_finalExam/sample/SimpleTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2195#2196#0" expanded="true" />
-            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#0#183#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/com/sun/javafx/event/CompositeEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -556,9 +661,38 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9818">
-          <caret line="528" column="0" lean-forward="true" selection-start-line="528" selection-start-column="0" selection-end-line="528" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="530">
+          <caret line="521" column="106" lean-forward="false" selection-start-line="521" selection-start-column="106" selection-end-line="521" selection-end-column="106" />
+          <folding>
+            <marker date="1514914595122" expanded="true" signature="23650:23715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-667">
+          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2223#2337#0" expanded="true" />
+            <element signature="e#2336#2337#0" expanded="true" />
+            <element signature="method#showData#0;class#Main#0" expanded="false" />
+            <element signature="method#showData2#0;class#Main#0" expanded="false" />
+            <element signature="method#setFinalLocation#0;class#Main#0" expanded="false" />
+            <element signature="method#translation2#0;class#Main#0" expanded="false" />
+            <element signature="method#search#0;class#Main#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
