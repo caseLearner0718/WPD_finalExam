@@ -11,8 +11,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#getLocation" prefHeight="500.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <ImageView fx:id="img00" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -470,7 +469,7 @@
             <Image url="@../../../../src/grass.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="441.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="img99" fitHeight="50.0" fitWidth="50.0" layoutX="441.0" layoutY="450.0" onMouseClicked="#getLocation" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../src/grass.jpg" />
          </image>
@@ -518,6 +517,11 @@
       <ImageView fx:id="img009" fitHeight="50.0" fitWidth="50.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../src/grass.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../src/nini.png" />
          </image>
       </ImageView>
    </children>
