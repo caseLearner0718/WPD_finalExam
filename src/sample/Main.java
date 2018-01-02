@@ -9,7 +9,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 public class Main extends Application {
-
+    static int x,y;
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
@@ -26,12 +26,31 @@ public class Main extends Application {
                         {0,1,1,0,1,0,1,0,1,1},
                         {0,1,1,0,1,0,1,0,0,0},
                         {0,0,0,0,1,0,0,0,1,0}};
+        int[][] status = {{0,0,0,0,0,0,0,0,0,0},
+                        {2,0,2,2,2,0,2,2,2,0},
+                        {0,0,2,0,0,0,2,0,0,0},
+                        {0,2,2,0,2,2,2,2,0,2},
+                        {0,0,0,0,2,0,0,0,0,0},
+                        {2,2,2,0,2,0,2,2,2,0},
+                        {0,0,0,0,0,0,2,0,0,0},
+                        {0,2,2,0,2,0,2,0,2,2},
+                        {0,2,2,0,2,0,2,0,0,0},
+                        {0,0,0,0,2,0,0,0,2,0}};
+        int[][] distance = {{0,0,0,0,0,0,0,0,0,0},
+                            {0,0,0,0,0,0,0,0,0,0},
+                            {0,0,0,0,0,0,0,0,0,0},
+                            {0,0,0,0,0,0,0,0,0,0},
+                            {0,0,0,0,0,0,0,0,0,0},
+                            {0,0,0,0,0,0,0,0,0,0},
+                            {0,0,0,0,0,0,0,0,0,0},
+                            {0,0,0,0,0,0,0,0,0,0},
+                            {0,0,0,0,0,0,0,0,0,0},
+                            {0,0,0,0,0,0,0,0,0,0}};
         printMap(map);
         root.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
-                System.out.println(event.getScreenX());
-                System.out.println(event.getScreenY());
+                setFinalLocation((int)event.getX(),(int)event.getY());
             }
         });
     }
@@ -48,5 +67,12 @@ public class Main extends Application {
             }
             System.out.println("");
         }
+    }
+    public static void setFinalLocation(int mouseClickX,int mouseClickY){
+        x = mouseClickX;
+        y = mouseClickY;
+        x = x/50;
+        y = y/50;
+        System.out.println("X: " + x + "\n" + "Y: " + y);
     }
 }
