@@ -11,8 +11,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("地圖生成器");
-        primaryStage.setScene(new Scene(root, 580, 480));
+        primaryStage.setTitle("自動循路模擬");
+        primaryStage.setScene(new Scene(root, 490, 500));
         primaryStage.show();
     }
 
