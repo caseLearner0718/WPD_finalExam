@@ -11,517 +11,517 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.GridPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#getLocation" prefHeight="500.0" prefWidth="490.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="490.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
   <children>
     <ImageView fx:id="img00" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
       <rotationAxis>
         <Point3D />
       </rotationAxis>
     </ImageView>
-    <ImageView fx:id="img01" fitHeight="50.0" fitWidth="50.0" layoutX="49.0" pickOnBounds="true" preserveRatio="true">
+    <ImageView fx:id="img01" fitHeight="50.0" fitWidth="50.0" layoutX="49.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
       <rotationAxis>
         <Point3D />
       </rotationAxis>
     </ImageView>
-    <ImageView fx:id="img02" fitHeight="50.0" fitWidth="50.0" layoutX="98.0" pickOnBounds="true" preserveRatio="true">
+    <ImageView fx:id="img02" fitHeight="50.0" fitWidth="50.0" layoutX="98.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img03" fitHeight="50.0" fitWidth="50.0" layoutX="147.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img04" fitHeight="50.0" fitWidth="50.0" layoutX="196.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img05" fitHeight="50.0" fitWidth="50.0" layoutX="245.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img06" fitHeight="50.0" fitWidth="50.0" layoutX="294.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img07" fitHeight="50.0" fitWidth="50.0" layoutX="343.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="392.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="441.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="441.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="392.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img071" fitHeight="50.0" fitWidth="50.0" layoutX="343.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img061" fitHeight="50.0" fitWidth="50.0" layoutX="294.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img051" fitHeight="50.0" fitWidth="50.0" layoutX="245.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img041" fitHeight="50.0" fitWidth="50.0" layoutX="196.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img031" fitHeight="50.0" fitWidth="50.0" layoutX="147.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img021" fitHeight="50.0" fitWidth="50.0" layoutX="98.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img011" fitHeight="50.0" fitWidth="50.0" layoutX="49.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img001" fitHeight="58.0" fitWidth="50.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="441.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="392.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img072" fitHeight="50.0" fitWidth="50.0" layoutX="343.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img062" fitHeight="50.0" fitWidth="50.0" layoutX="294.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img052" fitHeight="50.0" fitWidth="50.0" layoutX="245.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img042" fitHeight="50.0" fitWidth="50.0" layoutX="196.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img032" fitHeight="50.0" fitWidth="50.0" layoutX="147.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img022" fitHeight="50.0" fitWidth="50.0" layoutX="98.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img012" fitHeight="50.0" fitWidth="50.0" layoutX="49.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img002" fitHeight="50.0" fitWidth="50.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="441.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="392.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img073" fitHeight="50.0" fitWidth="50.0" layoutX="343.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img063" fitHeight="50.0" fitWidth="50.0" layoutX="294.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img053" fitHeight="50.0" fitWidth="50.0" layoutX="245.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img043" fitHeight="50.0" fitWidth="50.0" layoutX="196.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img033" fitHeight="50.0" fitWidth="50.0" layoutX="147.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img023" fitHeight="50.0" fitWidth="50.0" layoutX="98.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img013" fitHeight="50.0" fitWidth="50.0" layoutX="49.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img003" fitHeight="50.0" fitWidth="50.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="441.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="392.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img074" fitHeight="50.0" fitWidth="50.0" layoutX="343.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img064" fitHeight="50.0" fitWidth="50.0" layoutX="294.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img054" fitHeight="50.0" fitWidth="50.0" layoutX="245.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img044" fitHeight="50.0" fitWidth="50.0" layoutX="196.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img034" fitHeight="50.0" fitWidth="50.0" layoutX="147.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img024" fitHeight="50.0" fitWidth="50.0" layoutX="98.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img014" fitHeight="50.0" fitWidth="50.0" layoutX="49.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img004" fitHeight="50.0" fitWidth="50.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="441.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="392.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img075" fitHeight="50.0" fitWidth="50.0" layoutX="343.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img065" fitHeight="50.0" fitWidth="50.0" layoutX="294.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img055" fitHeight="50.0" fitWidth="50.0" layoutX="245.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img045" fitHeight="50.0" fitWidth="50.0" layoutX="196.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img035" fitHeight="50.0" fitWidth="50.0" layoutX="147.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img025" fitHeight="50.0" fitWidth="50.0" layoutX="98.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img015" fitHeight="50.0" fitWidth="50.0" layoutX="49.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img005" fitHeight="50.0" fitWidth="50.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="441.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="392.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img076" fitHeight="50.0" fitWidth="50.0" layoutX="343.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img066" fitHeight="50.0" fitWidth="50.0" layoutX="294.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img056" fitHeight="50.0" fitWidth="50.0" layoutX="245.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img046" fitHeight="50.0" fitWidth="50.0" layoutX="196.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img036" fitHeight="50.0" fitWidth="50.0" layoutX="147.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img026" fitHeight="50.0" fitWidth="50.0" layoutX="98.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img016" fitHeight="50.0" fitWidth="50.0" layoutX="49.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img006" fitHeight="50.0" fitWidth="50.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="441.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="392.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img077" fitHeight="50.0" fitWidth="50.0" layoutX="343.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img067" fitHeight="50.0" fitWidth="50.0" layoutX="294.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img057" fitHeight="50.0" fitWidth="50.0" layoutX="245.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img047" fitHeight="50.0" fitWidth="50.0" layoutX="196.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img037" fitHeight="50.0" fitWidth="50.0" layoutX="147.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img027" fitHeight="50.0" fitWidth="50.0" layoutX="98.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img017" fitHeight="50.0" fitWidth="50.0" layoutX="49.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img007" fitHeight="50.0" fitWidth="50.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="441.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="392.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img078" fitHeight="50.0" fitWidth="50.0" layoutX="343.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img068" fitHeight="50.0" fitWidth="50.0" layoutX="294.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img058" fitHeight="50.0" fitWidth="50.0" layoutX="245.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img048" fitHeight="50.0" fitWidth="50.0" layoutX="196.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img038" fitHeight="50.0" fitWidth="50.0" layoutX="147.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img028" fitHeight="50.0" fitWidth="50.0" layoutX="98.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img018" fitHeight="50.0" fitWidth="50.0" layoutX="49.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img008" fitHeight="50.0" fitWidth="50.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img99" fitHeight="50.0" fitWidth="50.0" layoutX="441.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="392.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img079" fitHeight="50.0" fitWidth="50.0" layoutX="343.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img069" fitHeight="50.0" fitWidth="50.0" layoutX="294.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img059" fitHeight="50.0" fitWidth="50.0" layoutX="245.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img049" fitHeight="50.0" fitWidth="50.0" layoutX="196.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/tree.jpg" />
+        <Image url="@../tree.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img039" fitHeight="50.0" fitWidth="50.0" layoutX="147.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img029" fitHeight="50.0" fitWidth="50.0" layoutX="98.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img019" fitHeight="50.0" fitWidth="50.0" layoutX="49.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
     <ImageView fx:id="img009" fitHeight="50.0" fitWidth="50.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
       <image>
-        <Image url="@../../../../src/grass.jpg" />
+        <Image url="@../grass.jpg" />
       </image>
     </ImageView>
-    <ImageView fx:id="nini" fitHeight="50.0" fitWidth="50.0" layoutX="-1.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+    <ImageView fx:id="noni" fitHeight="50.0" fitWidth="50.0" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true" x="0.0">
       <image>
-        <Image url="@../../../../src/nini.png" />
+        <Image url="@../nini.png" />
       </image>
     </ImageView>
   </children>
