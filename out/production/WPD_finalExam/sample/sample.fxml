@@ -9,9 +9,8 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.layout.GridPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="490.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
   <children>
     <ImageView fx:id="img00" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
       <image>
@@ -524,5 +523,6 @@
         <Image url="@../nini.png" />
       </image>
     </ImageView>
+      <TextArea fx:id="textArea" layoutX="495.0" layoutY="2.0" prefHeight="490.0" prefWidth="230.0" />
   </children>
 </AnchorPane>

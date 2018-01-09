@@ -33,6 +33,16 @@ public class Main extends Application {
                             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}};
+    static String[][] path ={{"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},};
     static String[][] predecessor = new String[10][10];
     static String[] plan = new String[25];
     static Queue queue = new LinkedList();
@@ -60,7 +70,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = fxmlLoader.load();
         primaryStage.setTitle("自動循路模擬");
-        primaryStage.setScene(new Scene(root, 490, 500));
+        primaryStage.setScene(new Scene(root, 730, 500));
         primaryStage.show();
 //      安裝滑鼠聆聽器
         root.setOnMouseClicked(new EventHandler<MouseEvent>() {
@@ -76,6 +86,7 @@ public class Main extends Application {
                 showData(distance);
 //                showData2(predecessor);
                 disindRoud();
+                showData2(path);
                 animationTimer.start();
             }
         });
@@ -87,7 +98,7 @@ public class Main extends Application {
     }
 
     //    印出地圖
-    public static void showData(int[][] data) {
+    public void showData(int[][] data) {
         System.out.println();
         System.out.println();
         for (int i = 0; i < data.length; i++) {
@@ -99,15 +110,19 @@ public class Main extends Application {
     }
 
     //    印出繼承圖
-    public static void showData2(String[][] data) {
+    public void showData2(String[][] data) {
+        Controller controller = fxmlLoader.getController();
         System.out.println();
         System.out.println();
         for (int i = 0; i < data.length; i++) {
             for (int k = 0; k < data.length; k++) {
-                System.out.print(data[i][k] + "\t\t\t\t\t\t");
+                System.out.print(data[i][k] + "  ");
+                controller.textArea.setText(controller.textArea.getText() + data[i][k] + "  ");
             }
             System.out.println("");
+            controller.textArea.setText(controller.textArea.getText() + "\n");
         }
+        controller.textArea.setText(controller.textArea.getText() + "\n");
     }
 
     //    將滑鼠座標轉換成地圖座標
@@ -220,10 +235,11 @@ public class Main extends Application {
             y = loca[1];
             plan[k] = predecessor[y][x];
             now = predecessor[y][x];
+            path[y][x] = "1";
         }
-//        for (int i = k; i >= 0; i--) {
-//            System.out.println("plan[" + i + "]="+ plan[i]);
-//        }
+        for (int i = k; i >= 0; i--) {
+            System.out.println("plan[" + i + "]="+ plan[i]);
+        }
     }
 
     //  檢查是否抵達節點
@@ -317,6 +333,17 @@ public class Main extends Application {
                             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}};
+        String[][] path2 = {{"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},
+                            {"0","0","0","0","0","0","0","0","0","0"},};
+        path = path2;
         distance = distance2;
 //        showData(distance);
 //        showData(status);
